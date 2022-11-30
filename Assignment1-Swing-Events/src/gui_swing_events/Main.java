@@ -5,5 +5,7 @@ package gui_swing_events;
 // main() method for just establishing the "SwingEventWindow" class
 
 public class Main {
-  
+  public static void main(String[] args) {
+    
+  }
 }
