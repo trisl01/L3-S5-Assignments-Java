@@ -233,4 +233,16 @@ public class Excel {
       return false;
     }
   }
+
+  private static boolean testFindTotal(String inputStr, Double result) {
+    Excel test = new Excel(inputStr);
+    Double total = test.findTotal();
+    if (total == result) { // for the 'null'
+      return true;
+    } else if (total.equals(result)) { // to compare the values
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
