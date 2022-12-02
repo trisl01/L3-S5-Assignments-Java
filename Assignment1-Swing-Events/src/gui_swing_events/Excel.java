@@ -27,7 +27,7 @@ public class Excel {
    * NOTE:
    * This passing string will represent the user's input (string of numbers)
    */
-  public Constructor2 {
+  public Excel(String string) {
     // NOTE: You can combine the three lines below into one:
 
     // Creating an array of String data type out of the string of numbers
