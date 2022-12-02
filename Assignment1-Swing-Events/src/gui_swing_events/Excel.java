@@ -1,6 +1,8 @@
 package gui_swing_events;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Excel {
   // Declare the private class variable
@@ -40,7 +42,7 @@ public class Excel {
     // Creating a list view (List Interface) from the previous array
     // using .asList() method of the "Arrays" class
     // You can name it "strNumList"
-    strNumList = ...
+    List<String> strNumList = (List<String>) Arrays.asList(strNumArray);
 
     // Creating an ArrayList object ("ArrayList" Class) from the previous List:
     // You can name it "strNumArrayList"
