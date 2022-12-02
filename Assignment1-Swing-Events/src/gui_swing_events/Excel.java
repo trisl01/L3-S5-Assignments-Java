@@ -148,6 +148,17 @@ public class Excel {
     Double test1Avg = test1Total/9;
     Double test1Max = 9.0;
     Double test1Min = 1.0;
+
+    String test2Str = "24   22 24.1 233";
+    ArrayList<Double> test2Array = new ArrayList<Double>();
+    test2Array.add(Double.parseDouble("24"));
+    test2Array.add(Double.parseDouble("22"));
+    test2Array.add(Double.parseDouble("24.1"));
+    test2Array.add(Double.parseDouble("233"));
+    Double test2Total = 303.1;
+    Double test2Avg = test2Total/4;
+    Double test2Max = 233.0;
+    Double test2Min = 22.0;
     boolean resultTest = true;
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
