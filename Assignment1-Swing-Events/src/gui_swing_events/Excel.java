@@ -105,4 +105,16 @@ public class Excel {
   }
 
   // Define the fourth method "findMin" to return the minimum number
+  public Double findMin() {
+    Double min = null;
+    boolean isFirst = true;
+    for (Double number : this.numbers) {
+      if (isFirst) {
+        min = number;
+      } else if (number < min) {
+        min = number;
+      }
+    }
+    return min;
+  }
 }
