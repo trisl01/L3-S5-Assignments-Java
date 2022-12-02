@@ -18,10 +18,10 @@ public class Excel {
    * Notice that this constructor will not be in used in this assignment,
    * but it's good to have it in case we need to immediately pass ArrayList
    */
-  public Excel() {
+  public Excel(ArrayList<Double> arrayNumbers) {
     // Just a simple assignment operator
     // Assign the passing parameter it to the class variable "numbers"
-    this.numbers = new ArrayList<Double>();
+    this.numbers = arrayNumbers;
   }
 
 
