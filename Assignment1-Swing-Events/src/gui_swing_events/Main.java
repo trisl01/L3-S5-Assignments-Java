@@ -6,6 +6,8 @@ package gui_swing_events;
 
 public class Main {
   public static void main(String[] args) {
-    
+    System.out.println(ColorText.getBlueBold() + "> Start program" + ColorText.getReset());
+
+    System.out.println(ColorText.getBlueBold() + "> End program" + ColorText.getReset());
   }
 }
