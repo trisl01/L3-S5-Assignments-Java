@@ -80,6 +80,16 @@ public class Excel {
   }
 
   // Define the second method "findAvg" to return the average
+  public Double findAvg() {
+    Double total = 0.0;
+    int length = 0;
+    for (Double number : this.numbers) {
+      total += number;
+      length++;
+    }
+    return total/length;
+  }
+
   // Define the third method "findMax" to return the maximum number
   // Define the fourth method "findMin" to return the minimum number
 }
