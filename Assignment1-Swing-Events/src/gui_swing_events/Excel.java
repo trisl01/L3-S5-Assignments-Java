@@ -83,6 +83,7 @@ public class Excel {
 
   // Define the first method "findTotal" to return the total
   public Double findTotal() {
+    if (this.numbers.isEmpty()) return null;
     Double total = 0.0;
     for (Double number : this.numbers) {
       total += number;
@@ -93,6 +94,7 @@ public class Excel {
 
   // Define the second method "findAvg" to return the average
   public Double findAvg() {
+    if (this.numbers.isEmpty()) return null;
     Double total = 0.0;
     int length = 0;
     for (Double number : this.numbers) {
@@ -105,6 +107,7 @@ public class Excel {
 
   // Define the third method "findMax" to return the maximum number
   public Double findMax() {
+    if (this.numbers.isEmpty()) return null;
     Double max = null;
     boolean isFirst = true;
     for (Double number : this.numbers) {
@@ -120,6 +123,7 @@ public class Excel {
 
   // Define the fourth method "findMin" to return the minimum number
   public Double findMin() {
+    if (this.numbers.isEmpty()) return null;
     Double min = null;
     boolean isFirst = true;
     for (Double number : this.numbers) {
