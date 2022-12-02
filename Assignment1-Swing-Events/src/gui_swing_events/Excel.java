@@ -237,6 +237,22 @@ public class Excel {
     } else if (!resultTest) {
       return false;
     }
+
+    //? Test findMax
+    tests[0] = testFindMax(test1Str, test1Max);
+    tests[1] = testFindMax(test2Str, test2Max);
+    tests[2] = testFindMax(test3Str, test3Max);
+    tests[3] = testFindMax(test4Str, test4Max);
+    tests[4] = testFindMax(test5Str, test5Max);
+
+    for (boolean b : tests) {
+      if (!b) resultTest = false;
+    }
+    if (display) {
+      displayResultsTest("findMax()", tests);
+    } else if (!resultTest) {
+      return false;
+    }
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
   }
