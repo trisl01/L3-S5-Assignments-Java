@@ -133,6 +133,21 @@ public class Excel {
   //? Testing the code
   public static boolean testExcel(boolean display) {
     if (display) System.out.println("> Start Test Excel.java");
+    String test1Str = "1 2 3 4 5 6 7 8 9";
+    ArrayList<Double> test1Array = new ArrayList<Double>();
+    test1Array.add(Double.parseDouble("1"));
+    test1Array.add(Double.parseDouble("2"));
+    test1Array.add(Double.parseDouble("3"));
+    test1Array.add(Double.parseDouble("4"));
+    test1Array.add(Double.parseDouble("5"));
+    test1Array.add(Double.parseDouble("6"));
+    test1Array.add(Double.parseDouble("7"));
+    test1Array.add(Double.parseDouble("8"));
+    test1Array.add(Double.parseDouble("9"));
+    Double test1Total = 45.0;
+    Double test1Avg = test1Total/9;
+    Double test1Max = 9.0;
+    Double test1Min = 1.0;
     boolean resultTest = true;
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
