@@ -132,7 +132,9 @@ public class Excel {
 
   //? Testing the code
   public static boolean testExcel(boolean display) {
+    if (display) System.out.println("> Start Test Excel.java");
     boolean resultTest = true;
+    if (display) System.out.println("> End Test Excel.java");
     return resultTest;
   }
 }
