@@ -52,7 +52,9 @@ public class Excel {
     // 1. Converting each item of String Data type to "Double"
     // 2. Adding the value to the "ArrayList" object "numbers"
     // NOTE: Using double so it can handle both whole numbers and fractions
-    strNumArrayList.forEach(...);
+    for (String str : strNumArrayList) {
+      this.numbers.add(Double.parseDouble(str));
+    }
 
     // for testing (optional) 😊
     for (int i = 0; i < numbers.size(); i++) {
