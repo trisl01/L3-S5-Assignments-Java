@@ -17,7 +17,7 @@ public class SwingEventWindow [ext. the GUI class, imp. 2 Interfaces] {
   // for grouping the radio button inside the constructor method
 
   // Class Constructor:
-  public Constructor() {
+  public SwingEventWindow() {
     // Setting Windows Title by targeting the method from the super class:
     // Setting Window (JFrame) Size:
     // Set the Window (JFrame) visibility to true to make it visible
