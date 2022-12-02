@@ -192,4 +192,13 @@ public class Excel {
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
   }
+
+  private static boolean testConstructor(String inputStr, ArrayList<Double> result) {
+    Excel test = new Excel(inputStr);
+    if (test.numbers.equals(result)) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
