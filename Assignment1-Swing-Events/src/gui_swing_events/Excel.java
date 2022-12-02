@@ -74,7 +74,7 @@ public class Excel {
   public Double findTotal() {
     Double total = 0.0;
     for (Double number : this.numbers) {
-      total+=number;
+      total += number;
     }
     return total;
   }
