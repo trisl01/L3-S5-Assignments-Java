@@ -91,5 +91,18 @@ public class Excel {
   }
 
   // Define the third method "findMax" to return the maximum number
+  public Double findMax() {
+    Double max = null;
+    boolean isFirst = true;
+    for (Double number : this.numbers) {
+      if (isFirst) {
+        max = number;
+      } else if (number > max) {
+        max = number;
+      }
+    }
+    return max;
+  }
+
   // Define the fourth method "findMin" to return the minimum number
 }
