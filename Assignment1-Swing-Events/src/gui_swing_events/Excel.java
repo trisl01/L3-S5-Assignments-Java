@@ -58,9 +58,9 @@ public class Excel {
     }
 
     // for testing (optional) 😊
-    for (int i = 0; i < numbers.size(); i++) {
+    /*for (int i = 0; i < numbers.size(); i++) {
       System.out.println(numbers.get(i));
-    }
+    }*/
   }
 
 
