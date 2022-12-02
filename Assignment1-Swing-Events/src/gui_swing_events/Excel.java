@@ -257,4 +257,16 @@ public class Excel {
       return false;
     }
   }
+
+  private static boolean testFindMax(String inputStr, Double result) {
+    Excel test = new Excel(inputStr);
+    Double max = test.findMax();
+    if (max == result) { // for the 'null'
+      return true;
+    } else if (max.equals(result)) { // to compare the values
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
