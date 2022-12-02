@@ -245,4 +245,16 @@ public class Excel {
       return false;
     }
   }
+
+  private static boolean testFindAvg(String inputStr, Double result) {
+    Excel test = new Excel(inputStr);
+    Double avg = test.findAvg();
+    if (avg == result) { // for the 'null'
+      return true;
+    } else if (avg.equals(result)) { // to compare the values
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
