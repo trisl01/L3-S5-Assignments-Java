@@ -253,6 +253,23 @@ public class Excel {
     } else if (!resultTest) {
       return false;
     }
+
+    //? Test findMin
+    tests[0] = testFindMin(test1Str, test1Min);
+    tests[1] = testFindMin(test2Str, test2Min);
+    tests[2] = testFindMin(test3Str, test3Min);
+    tests[3] = testFindMin(test4Str, test4Min);
+    tests[4] = testFindMin(test5Str, test5Min);
+
+    for (boolean b : tests) {
+      if (!b) resultTest = false;
+    }
+    if (display) {
+      displayResultsTest("findMin()", tests);
+    } else if (!resultTest) {
+      return false;
+    }
+    
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
   }
