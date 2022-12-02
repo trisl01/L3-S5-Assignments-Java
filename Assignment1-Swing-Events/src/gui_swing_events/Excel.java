@@ -186,6 +186,8 @@ public class Excel {
     Double test5Avg = null;
     Double test5Max = null;
     Double test5Min = null;
+
+    boolean tests[] = new boolean[5];
     boolean resultTest = true;
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
