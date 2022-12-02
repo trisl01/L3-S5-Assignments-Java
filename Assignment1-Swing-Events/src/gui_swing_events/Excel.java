@@ -33,7 +33,7 @@ public class Excel {
     // Creating an array of String data type out of the string of numbers
     // using .split() method:
     // You can name it "strNumArray"
-    strNumArray = ...
+    String[] strNumArray = string.split(" ");
 
     // Creating a list view (List Interface) from the previous array
     // using .asList() method of the "Arrays" class
