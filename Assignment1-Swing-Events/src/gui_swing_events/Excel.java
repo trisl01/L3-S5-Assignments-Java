@@ -113,6 +113,7 @@ public class Excel {
     for (Double number : this.numbers) {
       if (isFirst) {
         max = number;
+        isFirst = false;
       } else if (number > max) {
         max = number;
       }
@@ -129,6 +130,7 @@ public class Excel {
     for (Double number : this.numbers) {
       if (isFirst) {
         min = number;
+        isFirst = false;
       } else if (number < min) {
         min = number;
       }
