@@ -221,6 +221,22 @@ public class Excel {
     } else if (!resultTest) {
       return false;
     }
+
+    //? Test findAvg
+    tests[0] = testFindAvg(test1Str, test1Avg);
+    tests[1] = testFindAvg(test2Str, test2Avg);
+    tests[2] = testFindAvg(test3Str, test3Avg);
+    tests[3] = testFindAvg(test4Str, test4Avg);
+    tests[4] = testFindAvg(test5Str, test5Avg);
+
+    for (boolean b : tests) {
+      if (!b) resultTest = false;
+    }
+    if (display) {
+      displayResultsTest("findAvg()", tests);
+    } else if (!resultTest) {
+      return false;
+    }
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
   }
