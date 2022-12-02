@@ -80,17 +80,18 @@ public class SwingEventWindow [ext. the GUI class, imp. 2 Interfaces] {
      */
 
     // Run the if condition for checking the value of the flag variable "rdoChecked"
-    if (rdoChecked equals 1) then:
+    if (rdoChecked == 1) {
       // call the findTotal() method
       // output/Print the result (value) in the result's textfield
-    else if (rdoChecked equals 2) then:
+    } else if (rdoChecked == 2) {
       // call the findAvg() method
       // output/Print the result (value) in the result's textfield
-    else if (rdoChecked equals 3) then:
+    } else if (rdoChecked == 3) {
       // call the findMax() method
       // output/Print the result (value) in the result's textfield
-    else if (rdoChecked equals 4) then:
+    } else if (rdoChecked == 4) {
       // call the findMin() method
       // output/Print the result (value) in the result's textfield
-  } // end Event-Handler method for the calculate button 
+    }
+  }
 }
