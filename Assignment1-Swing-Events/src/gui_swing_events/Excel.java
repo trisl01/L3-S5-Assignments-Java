@@ -1,9 +1,12 @@
 package gui_swing_events;
 
+import java.util.ArrayList;
+
 public class Excel {
   // Declare the private class variable
   // This variable will be an empty "ArrayList" object of "Double" data type
   // To save/retrieve the user's input numbers in the textfield
+  private ArrayList<Double> numbers;
 
   /* 
    * Declare the first constructor method:
