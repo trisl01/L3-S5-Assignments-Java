@@ -269,4 +269,16 @@ public class Excel {
       return false;
     }
   }
+
+  private static boolean testFindMin(String inputStr, Double result) {
+    Excel test = new Excel(inputStr);
+    Double min = test.findMin();
+    if (min == result) { // for the 'null'
+      return true;
+    } else if (min.equals(result)) { // to compare the values
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
