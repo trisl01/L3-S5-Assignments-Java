@@ -1,5 +1,6 @@
 package gui_swing_events;
 
+import colors.ColorText;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

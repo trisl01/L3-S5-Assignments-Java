@@ -1,5 +1,7 @@
 package gui_swing_events;
 
+import colors.ColorText;
+
 // the package statement
 // the Class file that contains the main() method as the entry-point
 // main() method for just establishing the "SwingEventWindow" class
