@@ -46,7 +46,7 @@ public class Excel {
 
     // Creating an ArrayList object ("ArrayList" Class) from the previous List:
     // You can name it "strNumArrayList"
-    strNumArrayList = ...
+    ArrayList<String> strNumArrayList = new ArrayList<String>(strNumList);
 
     // Finally, using forEach to loop through the previous "ArrayList" object
     // 1. Converting each item of String Data type to "Double"
