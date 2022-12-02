@@ -71,6 +71,14 @@ public class Excel {
    */
 
   // Define the first method "findTotal" to return the total
+  public Double findTotal() {
+    Double total = 0.0;
+    for (Double number : this.numbers) {
+      total+=number;
+    }
+    return total;
+  }
+
   // Define the second method "findAvg" to return the average
   // Define the third method "findMax" to return the maximum number
   // Define the fourth method "findMin" to return the minimum number
