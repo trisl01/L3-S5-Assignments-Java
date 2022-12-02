@@ -5,6 +5,8 @@ public class SwingEventWindow [ext. the GUI class, imp. 2 Interfaces] {
   // this global and private variable is set to an initial value of 1
   // which refer to the first radio button to be selected by default
   // You can name "rdoChecked"
+  private int rdoChecked = 1;
+
   // Create JPanel main container object:
   // You create JPanel sub containers objects for each section of the GUI:
   // Create JComponents Items based on the assignment requirements:
