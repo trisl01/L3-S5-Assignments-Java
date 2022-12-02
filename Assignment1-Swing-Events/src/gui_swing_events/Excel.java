@@ -128,4 +128,11 @@ public class Excel {
     }
     return min;
   }
+
+
+  //? Testing the code
+  public static boolean testExcel(boolean display) {
+    boolean resultTest = true;
+    return resultTest;
+  }
 }
