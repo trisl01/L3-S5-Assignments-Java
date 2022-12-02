@@ -209,6 +209,22 @@ public class Excel {
     return resultTest;
   }
 
+  private static void displayResultsTest(String name, boolean tests[]) {
+    System.out.print("  > Test "+name+": ");
+    int countFalse = 0;
+    for (boolean b : tests) {
+      if (!b) countFalse++;
+    }
+    if (countFalse == 0) System.out.println(ColorText.getGreenBold() + "Success" + ColorText.getReset());
+    else {
+      System.out.print(ColorText.getRedBold() + "Fail" + ColorText.getReset() + " (" + ColorText.getRedBold() + countFalse + " fail");
+      if (countFalse > 1) System.out.print("s");
+      System.out.print(ColorText.getReset() + " / " + tests.length + " test");
+      if (tests.length > 1) System.out.print("s");
+      System.out.println(")");
+    }
+  }
+
   private static boolean testConstructor(String inputStr, ArrayList<Double> result) {
     Excel test = new Excel(inputStr);
     if (test.numbers.equals(result)) {
