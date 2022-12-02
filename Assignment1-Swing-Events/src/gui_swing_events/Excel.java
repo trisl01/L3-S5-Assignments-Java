@@ -8,6 +8,7 @@ public class Excel {
   // To save/retrieve the user's input numbers in the textfield
   private ArrayList<Double> numbers;
 
+
   /* 
    * Declare the first constructor method:
    * Passing an argument/parameter of ArrayList<Double>
@@ -19,6 +20,7 @@ public class Excel {
     // Assign the passing parameter it to the class variable "numbers"
     this.numbers = new ArrayList<Double>();
   }
+
 
   /*
    * Declare the second constructor method (Overloading):
@@ -56,6 +58,7 @@ public class Excel {
     } // end for loop
   } // end Constructor2
 
+
   /*
    * Start declaring the 4 individual methods:
    * - findTotal() method
@@ -79,6 +82,7 @@ public class Excel {
     return total;
   }
 
+
   // Define the second method "findAvg" to return the average
   public Double findAvg() {
     Double total = 0.0;
@@ -89,6 +93,7 @@ public class Excel {
     }
     return total/length;
   }
+
 
   // Define the third method "findMax" to return the maximum number
   public Double findMax() {
@@ -103,6 +108,7 @@ public class Excel {
     }
     return max;
   }
+
 
   // Define the fourth method "findMin" to return the minimum number
   public Double findMin() {
