@@ -14,10 +14,11 @@ public class Excel {
    * Notice that this constructor will not be in used in this assignment,
    * but it's good to have it in case we need to immediately pass ArrayList
    */
-  public Constructor1 {
+  public Excel() {
     // Just a simple assignment operator
     // Assign the passing parameter it to the class variable "numbers"
-  } // end Constructor1
+    this.numbers = new ArrayList<Double>();
+  }
 
   /*
    * Declare the second constructor method (Overloading):
