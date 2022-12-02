@@ -205,6 +205,22 @@ public class Excel {
     } else if (!resultTest) {
       return false;
     }
+
+    //? Test findTotal
+    tests[0] = testFindTotal(test1Str, test1Total);
+    tests[1] = testFindTotal(test2Str, test2Total);
+    tests[2] = testFindTotal(test3Str, test3Total);
+    tests[3] = testFindTotal(test4Str, test4Total);
+    tests[4] = testFindTotal(test5Str, test5Total);
+
+    for (boolean b : tests) {
+      if (!b) resultTest = false;
+    }
+    if (display) {
+      displayResultsTest("findTotal()", tests);
+    } else if (!resultTest) {
+      return false;
+    }
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
   }
