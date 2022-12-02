@@ -189,6 +189,22 @@ public class Excel {
 
     boolean tests[] = new boolean[5];
     boolean resultTest = true;
+
+    //? Test constructor
+    tests[0] = testConstructor(test1Str, test1Array);
+    tests[1] = testConstructor(test2Str, test2Array);
+    tests[2] = testConstructor(test3Str, test3Array);
+    tests[3] = testConstructor(test4Str, test4Array);
+    tests[4] = testConstructor(test5Str, test5Array);
+
+    for (boolean b : tests) {
+      if (!b) resultTest = false;
+    }
+    if (display) {
+      displayResultsTest("constructor()", tests);
+    } else if (!resultTest) {
+      return false;
+    }
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
   }
