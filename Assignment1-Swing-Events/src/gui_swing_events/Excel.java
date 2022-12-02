@@ -54,7 +54,10 @@ public class Excel {
     // 2. Adding the value to the "ArrayList" object "numbers"
     // NOTE: Using double so it can handle both whole numbers and fractions
     for (String str : strNumArrayList) {
-      this.numbers.add(Double.parseDouble(str));
+      try {
+        Double temp = Double.parseDouble(str);
+        this.numbers.add(Double.parseDouble(str));
+      } catch (NumberFormatException e) {}
     }
 
     // for testing (optional) 😊
