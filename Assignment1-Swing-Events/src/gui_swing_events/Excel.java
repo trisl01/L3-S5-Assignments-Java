@@ -179,6 +179,13 @@ public class Excel {
     Double test4Avg = test4Total/3;
     Double test4Max = 3.0;
     Double test4Min = 1.0;
+
+    String test5Str = " a dd";
+    ArrayList<Double> test5Array = new ArrayList<Double>();
+    Double test5Total = null;
+    Double test5Avg = null;
+    Double test5Max = null;
+    Double test5Min = null;
     boolean resultTest = true;
     if (display) System.out.println("> End Test Excel.java");
     return resultTest;
