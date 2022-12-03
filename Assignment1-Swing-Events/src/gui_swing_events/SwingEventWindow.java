@@ -1,5 +1,8 @@
 package gui_swing_events;
 
+import javax.swing.*;
+import java.awt.event.*;
+
 public class SwingEventWindow extends JFrame implements ActionListener, ItemListener {
   // Declare the checked radio button variable flag:
   // this global and private variable is set to an initial value of 1
