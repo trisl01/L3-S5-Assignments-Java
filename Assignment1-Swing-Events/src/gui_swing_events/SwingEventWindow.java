@@ -120,6 +120,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   // for each interface:
   @Override
   public void itemStateChanged(ItemEvent e) {
+    if (!((e.getItemSelectable() == rdo1 && rdoChecked == 1) || (e.getItemSelectable() == rdo2 && rdoChecked == 2) || (e.getItemSelectable() == rdo3 && rdoChecked == 3) || (e.getItemSelectable() == rdo4 && rdoChecked == 4))) {
       System.out.print(" > Radio selected: ");
       if (e.getItemSelectable() == rdo1) {
         // set the value of the flag variable "rdoChecked" to 1
@@ -138,6 +139,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
         rdoChecked = 4;
         System.out.println("Minimum");
       }
+    }
   }
 
   @Override
