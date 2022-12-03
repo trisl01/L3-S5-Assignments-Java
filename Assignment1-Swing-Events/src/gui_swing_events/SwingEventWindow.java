@@ -146,6 +146,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   public void actionPerformed(ActionEvent e) {
     // Getting the user's input string from the first textfield:
     // Save it into a variable of String data type:
+    String inputStr = txtInput.getText();
 
     // Initialize our "Excel" class object:
     /*
