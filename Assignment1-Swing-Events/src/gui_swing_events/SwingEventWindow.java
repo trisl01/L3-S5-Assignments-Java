@@ -108,7 +108,8 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
      * We need to add the required events to each radio button
      * and to the submit "Calculate" button only
      */
-  } // end constructor
+  }
+
 
   // Implementing the two required methods (event-handler)
   // for each interface:
