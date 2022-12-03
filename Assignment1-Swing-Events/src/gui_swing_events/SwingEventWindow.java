@@ -154,6 +154,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
      * Java will pick the second constructor from the Excel class
      * based on the passing data type of the argument which is "String"
      */
+    Excel excelUser = new Excel(inputStr);
 
     // Run the if condition for checking the value of the flag variable "rdoChecked"
     if (rdoChecked == 1) {
