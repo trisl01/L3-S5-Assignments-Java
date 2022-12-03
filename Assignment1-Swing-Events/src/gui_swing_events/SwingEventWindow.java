@@ -129,6 +129,9 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
       } else if (e.getItemSelectable() == rdo3) {
         // set the value of the flag variable "rdoChecked" to 3
         rdoChecked = 3;
+      } else {
+        // set the value of the flag variable "rdoChecked" to 4
+        rdoChecked = 4;
       }
   }
 
