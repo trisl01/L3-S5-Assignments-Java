@@ -143,7 +143,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   }
 
   @Override
-  public void Event-Handler method for the calculate button {
+  public void actionPerformed(ActionEvent e) {
     // Getting the user's input string from the first textfield:
     // Save it into a variable of String data type:
 
