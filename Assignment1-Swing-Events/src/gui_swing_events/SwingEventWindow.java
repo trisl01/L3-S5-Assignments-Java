@@ -120,6 +120,10 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   // for each interface:
   @Override
   public void itemStateChanged(ItemEvent e) {
+      if (e.getItemSelectable() == rdo1) {
+        // set the value of the flag variable "rdoChecked" to 1
+        rdoChecked = 1;
+      }
   }
 
   @Override
