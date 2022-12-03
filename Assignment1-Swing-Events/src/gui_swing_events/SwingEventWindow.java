@@ -162,21 +162,41 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
       Double findTotal = excelUser.findTotal();
 
       // output/Print the result (value) in the result's textfield
+      if (findTotal != null) {
+        txtOutput.setText(findTotal.toString());
+      } else {
+        txtOutput.setText("NaN");
+      }
     } else if (rdoChecked == 2) {
       // call the findAvg() method
       Double findAvg = excelUser.findAvg();
 
       // output/Print the result (value) in the result's textfield
+      if (findAvg != null) {
+        txtOutput.setText(findAvg.toString());
+      } else {
+        txtOutput.setText("NaN");
+      }
     } else if (rdoChecked == 3) {
       // call the findMax() method
       Double findMax = excelUser.findMax();
 
       // output/Print the result (value) in the result's textfield
+      if (findMax != null) {
+        txtOutput.setText(findMax.toString());
+      } else {
+        txtOutput.setText("NaN");
+      }
     } else if (rdoChecked == 4) {
       // call the findMin() method
       Double findMin = excelUser.findMin();
 
       // output/Print the result (value) in the result's textfield
+      if (findMin != null) {
+        txtOutput.setText(findMin.toString());
+      } else {
+        txtOutput.setText("NaN");
+      }
     }
   }
 }
