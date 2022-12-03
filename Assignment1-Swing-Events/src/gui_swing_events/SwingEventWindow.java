@@ -14,6 +14,13 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   private JPanel mainPanel = new JPanel();
 
   // You create JPanel sub containers objects for each section of the GUI:
+  private JPanel pnl1 = new JPanel();
+  private JPanel pnl2 = new JPanel();
+  private JPanel pnl3 = new JPanel();
+  private JPanel pnl4 = new JPanel();
+  private JPanel pnl5 = new JPanel();
+  private JPanel pnl6 = new JPanel();
+
   // Create JComponents Items based on the assignment requirements:
   // Create/Declare the 4 radio buttons objects:
 
