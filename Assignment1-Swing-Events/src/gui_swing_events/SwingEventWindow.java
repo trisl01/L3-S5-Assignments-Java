@@ -51,6 +51,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     setSize(370, 270);
 
     // Set the Window (JFrame) visibility to true to make it visible
+    setVisible(true);
 
     // Setting the default operation for the close button to Exit the JFrame
     // (Stopping the application)
