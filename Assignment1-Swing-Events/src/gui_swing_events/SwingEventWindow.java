@@ -11,6 +11,8 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   private int rdoChecked = 1;
 
   // Create JPanel main container object:
+  private JPanel mainPanel = new JPanel();
+
   // You create JPanel sub containers objects for each section of the GUI:
   // Create JComponents Items based on the assignment requirements:
   // Create/Declare the 4 radio buttons objects:
