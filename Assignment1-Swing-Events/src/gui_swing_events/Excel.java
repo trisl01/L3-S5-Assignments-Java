@@ -139,6 +139,24 @@ public class Excel {
   }
 
 
+  @Override
+  public String toString() {
+    String str = "[";
+    if (!this.numbers.isEmpty()) {
+      boolean isFirst = true;
+      for (Double number : this.numbers) {
+        if (!isFirst) str += ", ";
+        else isFirst = false;
+        str += number;
+      }
+    } else {
+      str += "empty";
+    }
+    str += "]";
+    return str;
+  }
+
+
   //? Testing the code
   public static boolean testExcel(boolean display) {
     if (display) System.out.println("> Start Test Excel.java");
