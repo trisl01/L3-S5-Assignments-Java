@@ -45,6 +45,8 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   // Class Constructor:
   public SwingEventWindow() {    
     // Setting Windows Title by targeting the method from the super class:
+    super("Excel Formulas Window");
+
     // Setting Window (JFrame) Size:
     // Set the Window (JFrame) visibility to true to make it visible
 
