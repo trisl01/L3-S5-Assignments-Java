@@ -120,18 +120,23 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   // for each interface:
   @Override
   public void itemStateChanged(ItemEvent e) {
+      System.out.print(" > Radio selected: ");
       if (e.getItemSelectable() == rdo1) {
         // set the value of the flag variable "rdoChecked" to 1
         rdoChecked = 1;
+        System.out.println("AutoSum");
       } else if (e.getItemSelectable() == rdo2) {
         // set the value of the flag variable "rdoChecked" to 2
         rdoChecked = 2;
+        System.out.println("Average");
       } else if (e.getItemSelectable() == rdo3) {
         // set the value of the flag variable "rdoChecked" to 3
         rdoChecked = 3;
+        System.out.println("Maximum");
       } else {
         // set the value of the flag variable "rdoChecked" to 4
         rdoChecked = 4;
+        System.out.println("Minimum");
       }
   }
 
