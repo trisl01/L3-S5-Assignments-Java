@@ -32,6 +32,10 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   private JButton btn = new JButton("Calculate");
 
   // Create/Declare the 4 radio buttons objects:
+  private JRadioButton rdo1 = new JRadioButton("AutoSum", true);
+  private JRadioButton rdo2 = new JRadioButton("Average");
+  private JRadioButton rdo3 = new JRadioButton("Maximum");
+  private JRadioButton rdo4 = new JRadioButton("Minimum");
 
   // Using ButtonGroup class for grouping the 4 related radio buttons
   // Create/Declare the ButtonGroup object
