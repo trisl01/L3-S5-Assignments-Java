@@ -75,6 +75,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
      * It's better to use the "GridLayout" based on the instructions
      */
     // Panel#1 for lblMain - Panel#2 for lblRequest - Panel#3 for txtNum
+    pnl1.add(lblMain);
     // Panel#4 for the 4 radio buttons
     // Panel#5 for the calculate button
     // Panel#6 for the result label and the result output textfield
