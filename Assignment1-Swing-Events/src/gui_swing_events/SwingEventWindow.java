@@ -62,6 +62,10 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
 
     // Just group the four related JRadioButton components:
     // by adding them to the ButtonGroup object that you declared earlier
+    btnGroup.add(rdo1);
+    btnGroup.add(rdo2);
+    btnGroup.add(rdo3);
+    btnGroup.add(rdo4);
 
     // Adding the components to their panels:
     /*
