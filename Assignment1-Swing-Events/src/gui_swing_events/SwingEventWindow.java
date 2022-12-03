@@ -159,15 +159,23 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     // Run the if condition for checking the value of the flag variable "rdoChecked"
     if (rdoChecked == 1) {
       // call the findTotal() method
+      Double findTotal = excelUser.findTotal();
+
       // output/Print the result (value) in the result's textfield
     } else if (rdoChecked == 2) {
       // call the findAvg() method
+      Double findAvg = excelUser.findAvg();
+
       // output/Print the result (value) in the result's textfield
     } else if (rdoChecked == 3) {
       // call the findMax() method
+      Double findMax = excelUser.findMax();
+
       // output/Print the result (value) in the result's textfield
     } else if (rdoChecked == 4) {
       // call the findMin() method
+      Double findMin = excelUser.findMin();
+
       // output/Print the result (value) in the result's textfield
     }
   }
