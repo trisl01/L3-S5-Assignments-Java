@@ -55,6 +55,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
 
     // Setting the default operation for the close button to Exit the JFrame
     // (Stopping the application)
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     // No need to assign/set any value to the JComponents
     // It's already done when they are all declared above
