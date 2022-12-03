@@ -11,7 +11,9 @@ public class Main {
     System.out.println(ColorText.getBlueBold() + "> Start program" + ColorText.getReset());
 
     if (Excel.testExcel(true)) {
+      System.out.println("> Start SwingEventWindow.java");
       new SwingEventWindow();
+      System.out.println("> End SwingEventWindow.java");
     } else {
       System.out.println(ColorText.getRedBold() + "Error on Excel.java" + ColorText.getReset());
     }
