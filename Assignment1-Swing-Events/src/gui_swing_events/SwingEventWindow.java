@@ -22,6 +22,15 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   private JPanel pnl6 = new JPanel();
 
   // Create JComponents Items based on the assignment requirements:
+  private JLabel lblMain = new JLabel("Excel Functions");
+  private JLabel lblRequest = new JLabel("Enter your numbers separated by spaces");
+  private JLabel lblResult = new JLabel("Result: ");
+
+  private JTextField txtInput = new JTextField(30);
+  private JTextField txtOutput = new JTextField(20);
+
+  private JButton btn = new JButton("Calculate");
+
   // Create/Declare the 4 radio buttons objects:
 
   // Using ButtonGroup class for grouping the 4 related radio buttons
