@@ -48,6 +48,8 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     super("Excel Formulas Window");
 
     // Setting Window (JFrame) Size:
+    setSize(370, 270);
+
     // Set the Window (JFrame) visibility to true to make it visible
 
     // Setting the default operation for the close button to Exit the JFrame
