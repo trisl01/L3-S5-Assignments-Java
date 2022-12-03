@@ -147,6 +147,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     // Getting the user's input string from the first textfield:
     // Save it into a variable of String data type:
     String inputStr = txtInput.getText();
+    System.out.print(" > Calculate: Input = \"" + inputStr + "\"");
 
     // Initialize our "Excel" class object:
     /*
@@ -155,11 +156,13 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
      * based on the passing data type of the argument which is "String"
      */
     Excel excelUser = new Excel(inputStr);
+    System.out.print(" - " + excelUser.toString());
 
     // Run the if condition for checking the value of the flag variable "rdoChecked"
     if (rdoChecked == 1) {
       // call the findTotal() method
       Double findTotal = excelUser.findTotal();
+      System.out.println(" - findTotal() = " + findTotal);
 
       // output/Print the result (value) in the result's textfield
       if (findTotal != null) {
@@ -170,6 +173,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     } else if (rdoChecked == 2) {
       // call the findAvg() method
       Double findAvg = excelUser.findAvg();
+      System.out.println(" - findAvg() = " + findAvg);
 
       // output/Print the result (value) in the result's textfield
       if (findAvg != null) {
@@ -180,6 +184,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     } else if (rdoChecked == 3) {
       // call the findMax() method
       Double findMax = excelUser.findMax();
+      System.out.println(" - findMax() = " + findMax);
 
       // output/Print the result (value) in the result's textfield
       if (findMax != null) {
@@ -190,6 +195,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     } else if (rdoChecked == 4) {
       // call the findMin() method
       Double findMin = excelUser.findMin();
+      System.out.println(" - findMin() = " + findMin);
 
       // output/Print the result (value) in the result's textfield
       if (findMin != null) {
