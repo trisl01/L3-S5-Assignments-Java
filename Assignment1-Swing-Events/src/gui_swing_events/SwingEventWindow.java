@@ -40,6 +40,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   // Using ButtonGroup class for grouping the 4 related radio buttons
   // Create/Declare the ButtonGroup object
   // for grouping the radio button inside the constructor method
+  private ButtonGroup btnGroup = new ButtonGroup();
 
   // Class Constructor:
   public SwingEventWindow() {
