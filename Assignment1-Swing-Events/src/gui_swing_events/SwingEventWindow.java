@@ -86,6 +86,8 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     pnl4.add(rdo4);
 
     // Panel#5 for the calculate button
+    pnl5.add(btn);
+
     // Panel#6 for the result label and the result output textfield
 
     // Adding all the 6 sub panels to the main panel (the main container):
