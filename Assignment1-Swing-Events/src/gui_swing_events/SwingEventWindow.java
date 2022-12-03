@@ -93,6 +93,13 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     pnl6.add(txtOutput);
 
     // Adding all the 6 sub panels to the main panel (the main container):
+    mainPanel.add(pnl1);
+    mainPanel.add(pnl2);
+    mainPanel.add(pnl3);
+    mainPanel.add(pnl4);
+    mainPanel.add(pnl5);
+    mainPanel.add(pnl6);
+
     // Adding the main panel "mainPanel" (JPanel object) to the JFrame:
 
     // Adding/attaching the required Events to some components:
