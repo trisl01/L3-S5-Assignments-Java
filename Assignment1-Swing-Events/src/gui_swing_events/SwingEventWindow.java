@@ -80,6 +80,11 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     pnl3.add(txtInput);
 
     // Panel#4 for the 4 radio buttons
+    pnl4.add(rdo1);
+    pnl4.add(rdo2);
+    pnl4.add(rdo3);
+    pnl4.add(rdo4);
+
     // Panel#5 for the calculate button
     // Panel#6 for the result label and the result output textfield
 
