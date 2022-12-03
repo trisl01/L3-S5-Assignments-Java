@@ -113,6 +113,8 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
     rdo3.addItemListener(this);
     rdo4.addItemListener(this);
     btn.addActionListener(this);
+
+    setVisible(true);
   }
 
 
