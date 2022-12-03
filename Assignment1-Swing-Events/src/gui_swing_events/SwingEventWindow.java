@@ -119,6 +119,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   // Implementing the two required methods (event-handler)
   // for each interface:
   @Override
+  public void itemStateChanged(ItemEvent e) {
   }
 
   @Override
