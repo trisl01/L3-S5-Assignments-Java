@@ -43,7 +43,7 @@ public class SwingEventWindow extends JFrame implements ActionListener, ItemList
   private ButtonGroup btnGroup = new ButtonGroup();
 
   // Class Constructor:
-  public SwingEventWindow() {
+  public SwingEventWindow() {    
     // Setting Windows Title by targeting the method from the super class:
     // Setting Window (JFrame) Size:
     // Set the Window (JFrame) visibility to true to make it visible
